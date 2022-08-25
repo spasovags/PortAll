@@ -15,6 +15,12 @@ const Navbar = () => {
         ? `${styles["hideMenu"]} ${styles["nav-links-container"]}`
         : `${styles["nav-links-container"]}`;
 
+    const [isActive, setIsActive] = useState(false);
+    const hambClassname = isActive
+            ? `${styles["active"]} ${styles["menu-container"]} ${styles["icon"]}`
+            : `${styles["menu-container"]} ${styles["icon"]}`;
+    
+
   return (
     <div className={`${styles["nav-background"]}`}>
       <div className={`${styles["navbar-container"]}`}>
@@ -22,8 +28,8 @@ const Navbar = () => {
           <a href="#">
             <Image src={logo} height={45} width={60} alt="Link home" />
           </a>
-          <div href="#" className={`${styles["menu-container"]} 
-          ${styles["icon"]}`} onClick={() => setIsModal(!isModal)}>
+          <div href="#" className={hambClassname} 
+          onClick={() => {setIsModal(!isModal); setIsActive(!isActive)}}>
             <span className={`${styles["span-top"]}`}></span>
             <span className={`${styles["span-middle"]}`}></span>
             <span className={`${styles["span-bottom"]}`}></span>

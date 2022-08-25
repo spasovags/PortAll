@@ -1,5 +1,6 @@
 .nav-background {
-    background-color: #667886;
+    /*background-color: #667886;*/
+    background-image: linear-gradient(to right, white , #657654);
     width: 100%;
     position: sticky;
     top: 0;
@@ -74,7 +75,7 @@
   }
   .dropbtn {
     width: 100%;
-    background-color: #e79d61;
+    background-image: linear-gradient(to right, white , #657654);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -82,7 +83,7 @@
     border-style: none;
   }
   .dropbtn:hover {
-    background-image: linear-gradient(to right, #e79d61, black, #e79d61);
+    background-image: linear-gradient(to right, white, black, #657654);
   }
   
   .dropdown {
