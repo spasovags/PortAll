@@ -1,0 +1,31 @@
+.card {
+    background-color: aquamarine;
+    flex: 0 1 200px; /*  Stretching: */
+    /* flex: 0 1 150px;  No stretching: */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.photoCard {
+    background: wheat;
+    object-fit: contain;
+}
+.profPicAndName{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    margin: 0px 1em;
+}
+.profPicAndName img{
+
+    border-radius: 50%;
+}
+ .profPicAndName a{
+    margin-left: 1em;
+    font-weight: bold;
+    cursor: pointer;
+ } 
+  

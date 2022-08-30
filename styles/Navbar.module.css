@@ -4,6 +4,7 @@
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 10000;
   }
   .navbar-container {
     margin: 0px 0.5rem;
