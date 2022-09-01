@@ -1,5 +1,6 @@
 import styles from '../styles/Navbar.module.css'
 import { useState } from "react";
+import Link from 'next/link'
 import Image from 'next/image'
 import logo from './icons/logo.avif'
 
@@ -25,9 +26,9 @@ const Navbar = () => {
     <div className={`${styles["nav-background"]}`}>
       <div className={`${styles["navbar-container"]}`}>
         <div className={`${styles["logo-close-container"]}`}>
-          <a href="#">
+          <Link href="#">
             <Image src={logo} height={45} width={60} alt="Link home" />
-          </a>
+          </Link>
           <div href="#" className={hambClassname} 
           onClick={() => {setIsModal(!isModal); setIsActive(!isActive)}}>
             <span className={`${styles["span-top"]}`}></span>
@@ -39,33 +40,33 @@ const Navbar = () => {
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>Dropdown</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <Link href="#">Link 1</Link>
+              <Link href="#">Link 2</Link>
+              <Link href="#">Link 3</Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>Dropdown</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <Link href="#">Link 1</Link>
+              <Link href="#">Link 2</Link>
+              <Link href="#">Link 3</Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>Dropdown</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <Link href="#">Link 1</Link>
+              <Link href="#">Link 2</Link>
+              <Link href="#">Link 3</Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>Dropdown</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <Link href="#">Link 1</Link>
+              <Link href="#">Link 2</Link>
+              <Link href="#">Link 3</Link>
             </div>
           </div>
         </div>

@@ -20,12 +20,30 @@
     margin: 1em 1em;
 }
 .profPicAndName img{
-
+    cursor: pointer;
     border-radius: 50%;
 }
- .profPicAndName a{
+.card p{
+    cursor: pointer;
+    color: black;
+    margin: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profPicAndName a{
     margin-left: 1em;
     font-weight: bold;
-    cursor: pointer;
  } 
-  
+.description{
+    display: flex;
+}
+.description button{
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10%;
+}
