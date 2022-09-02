@@ -1,5 +1,4 @@
 .card {
-    background-color: aquamarine;
     flex: 0 1 200px; /*  Stretching: */
     /* flex: 0 1 150px;  No stretching: */
     margin: 5px;
@@ -16,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color: black;
     margin: 1em 1em;
 }
 .profPicAndName img{
@@ -24,9 +22,9 @@
     border-radius: 50%;
 }
 .card p{
+    color: var(--text1);
     cursor: pointer;
-    color: black;
-    margin: 1em;
+    margin: 1em 0em 1em 1em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -42,7 +40,7 @@
     cursor: pointer;
     white-space: nowrap;
     background-color: transparent;
-    color: black;
+    color: var(--text1);
     font-weight: bold;
     border-style: none;
     border-radius: 10%;

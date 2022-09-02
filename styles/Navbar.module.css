@@ -1,6 +1,6 @@
 .nav-background {
     /*background-color: #667886;*/
-    background-image: linear-gradient(to right, white , #657654);
+    background-image: linear-gradient(to right, white , var(--surface1));
     width: 100%;
     position: sticky;
     top: 0;
