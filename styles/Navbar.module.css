@@ -1,6 +1,6 @@
 .nav-background {
     /*background-color: #667886;*/
-    background-image: linear-gradient(to right, white , var(--surface1));
+    background-image: linear-gradient(to right, white , var(--brand));
     width: 100%;
     position: sticky;
     top: 0;
@@ -76,15 +76,16 @@
   }
   .dropbtn {
     width: 100%;
-    background-image: linear-gradient(to right, white , #657654);
-    color: white;
+    background-image: linear-gradient(to right, white , var(--brand));
+    color: var(--text1);
     padding: 16px;
     font-size: 16px;
     cursor: pointer;
     border-style: none;
   }
   .dropbtn:hover {
-    background-image: linear-gradient(to right, white, black, #657654);
+    color: var(--text2);
+    background-image: linear-gradient(to right, white, black, var(--brand));
   }
   
   .dropdown {
@@ -114,20 +115,21 @@
       display: inline-block;
     }
     .dropbtn {
+      color: var(--text2);
       background-image: none;
-      background-color: #657654;
+      background-color: var(--brand);
     }
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #657654;
+      background-color: var(--brand);
       min-width: 105px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
     }
   
     .dropdown-content a {
-      color: white;
+      color: var(--text2);
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -147,7 +149,7 @@
       background-image: linear-gradient(to right, black, black);
     }
     .nav-background {
-      background-image: linear-gradient(to right, white , #657654, #657654);
+      background-image: linear-gradient(to right, white , var(--brand), var(--brand));
     }
   }
   
