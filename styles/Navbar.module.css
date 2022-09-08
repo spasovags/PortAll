@@ -21,6 +21,9 @@
     justify-content: space-between;
     width: 100%;
   }
+  .logo-close-container img{
+    cursor: pointer;
+  }
   /* hamburger menu */
   .icon {
     display: block;
@@ -69,8 +72,8 @@
     transform: rotate(45deg) translate(-7px, -12px);
     width: 40px;
   }
-  
   /* end of hamburger menu */
+  
   .hideMenu {
     display: none;
   }
@@ -135,7 +138,9 @@
       display: block;
     }
     .dropdown-content a:hover {
-      background-color: black;
+      background-color: var(--surface1);
+      color: var(--text1);
+      font-weight: bold;
     }
   
     .dropdown:hover .dropdown-content {

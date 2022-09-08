@@ -17,22 +17,23 @@
     justify-content: flex-start;
     margin: 1em 1em;
 }
+.profPicAndName a{
+    margin-left: 1em;
+    font-weight: bold;
+    color: var(--text2);
+ } 
 .profPicAndName img{
     cursor: pointer;
     border-radius: 50%;
 }
 .card p{
-    color: var(--text1);
+    color: var(--text2);
     cursor: pointer;
     margin: 1em 0em 1em 1em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.profPicAndName a{
-    margin-left: 1em;
-    font-weight: bold;
- } 
 .description{
     display: flex;
 }
@@ -40,8 +41,9 @@
     cursor: pointer;
     white-space: nowrap;
     background-color: transparent;
-    color: var(--text1);
+    color: var(--text2);
     font-weight: bold;
     border-style: none;
     border-radius: 10%;
+    letter-spacing: 0.1em;
 }
