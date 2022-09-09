@@ -148,10 +148,12 @@
     }
   
     .dropdown:hover .dropbtn {
-      background-color: black;
+      background-color: var(--surface2);
+      color: var(--text1);
     }
     .dropbtn:hover {
-      background-image: linear-gradient(to right, black, black);
+      color: var(--text1);
+      background-image: linear-gradient(to right, var(--surface1), var(--surface1));
     }
     .nav-background {
       background-image: linear-gradient(to right, white , var(--brand), var(--brand));
