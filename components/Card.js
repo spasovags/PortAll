@@ -6,8 +6,9 @@ import two from '../components/images/2.png'
 import three from '../components/images/3.png'
 import styles from '../styles/Card.module.css'
 
-const Card = () => {
-  return (
+function Card(props) {
+  const profile = props.profile;
+   return (
     <div>     
       <section className={`${styles["card"]}`}>
         <div className={`${styles["profPicAndName"]}`}>
@@ -18,13 +19,13 @@ const Card = () => {
             objectFit='cover'
             />
           </Link>
-          <Link href='#'> John Doe</Link>
+          <Link href='#'> {profile}</Link>
         </div>
         <div className={`${styles["description"]}`}>
           <p>Medium length description. 
             Let's add a few more words here.
           </p>
-          <button className={`${styles["dropbtn"]}`}>read more</button>
+          {/*<button className={`${styles["dropbtn"]}`}>read more</button>*/}
         </div>
         <div className={`${styles["photoCard"]}`}>
           <Image src={one} layout='responsive'/>
