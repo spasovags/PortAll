@@ -7,9 +7,12 @@
     justify-content: space-between;
   }
 .photoCard {
-    background: wheat;
-    object-fit: contain;
+    /*background: wheat;*/
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
+
 .profPicAndName{
     height: 70px;
     display: flex;

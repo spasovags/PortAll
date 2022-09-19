@@ -21,13 +21,11 @@ function Card(props) {
           <Link href='#'>{profile.username}</Link>
         </div>
         <div className={`${styles["description"]}`}>
-          <p>Medium length description. 
-            Let's add a few more words here.
-          </p>
+          <p>{profile.description}</p>
           {/*<button className={`${styles["dropbtn"]}`}>read more</button>*/}
         </div>
         <div className={`${styles["photoCard"]}`}>
-          <Image src={`${basePath}/${profile.photo}`} layout='fill'/>
+          <Image src={`${basePath}/${profile.photo}`} layout="fill" objectFit='contain'/>
         </div>
       </section>
     </div>
