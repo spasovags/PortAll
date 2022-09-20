@@ -14,7 +14,7 @@ export default function Home() {
   const profiles = JSON.parse(data)
 
   return (
-    <div>
+    <>
       <Head>
         <title>PortAll</title>
         <meta name="description" content="Find job, friends and sponsors" />
@@ -23,7 +23,6 @@ export default function Home() {
 
       {profiles.map((profile) =>
        <Card key={profile.id} value={profile} />)}
-
-    </div>
+    </>
   )
 }

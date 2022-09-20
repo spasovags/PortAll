@@ -1,37 +1,43 @@
 [
     {
       "id": 1,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "11.png",
+      "photo": "1.png",
       "username": "joe",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatibus?"
     },
     {
       "id": 8221,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "12.png",
+      "photo": "2.png",      
       "username": "jill",
       "description": " There is no need to specify the key here:return loremlorem"
     },
-    {
+    {  
       "id": 11,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "13.png",
+      "photo": "3.png",      
       "username": "dan",
       "description": "That elements inside the map() call need keys"
     },
     {
       "id": 821,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "14.png",
+      "photo": "4.png",      
       "username": "bill",
       "description": "key here:return loremlorem"
     },
     {
       "id": 12,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "15.png",
+      "photo": "5.png",      
       "username": "blob",
       "description": "We can have a link to each of these pages like so:      "
     },
     {
       "id": 822,
-      "photo": "Screenshot_20220826-102330.png",
+      "profPic": "16.png",
+      "photo": "6.png",      
       "username": "bob",
       "description": " Client-side transitions between routes can be enabled via the Link component exported by next/link.For an example, consider a pages directory with the following fi"
     }

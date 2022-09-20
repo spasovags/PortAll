@@ -8,11 +8,10 @@ function Card(props) {
   const basePath = '/images/PhotosProfiles'
 
    return (
-    <div>     
       <section className={`${styles["card"]}`}>
         <div className={`${styles["profPicAndName"]}`}>
           <Link href="#">
-            <Image src={`${basePath}/${profile.photo}`}
+            <Image src={`${basePath}/${profile.profPic}`}
             width="70" 
             height="70"
             objectFit='cover'
@@ -28,7 +27,6 @@ function Card(props) {
           <Image src={`${basePath}/${profile.photo}`} layout="fill" objectFit='contain'/>
         </div>
       </section>
-    </div>
   )
 }
 

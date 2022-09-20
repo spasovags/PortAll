@@ -92,6 +92,13 @@ html {
     --shadow-strength: var(--shadow-strength-dark);
   }
 }
+@media (min-width: 700px) {
+  main {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 
 [color-scheme="light"] {
   color-scheme: light;
