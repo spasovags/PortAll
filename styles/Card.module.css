@@ -33,12 +33,11 @@
     color: var(--text2);
     cursor: pointer;
     margin: 1em 0em 1em 1em;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.description{
-    display: flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .description button{
     cursor: pointer;
@@ -49,4 +48,12 @@
     border-style: none;
     border-radius: 10%;
     letter-spacing: 0.1em;
+}
+@media (min-width: 700px) {
+.card p {
+    margin: 0em;
+  }
+  .card{
+    margin: 1em;
+  }
 }
