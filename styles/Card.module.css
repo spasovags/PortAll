@@ -9,16 +9,18 @@
 .photoCard {
     /*background: wheat;*/
     width: 100%;
-    height: 500px;
+    height: 300px;
     position: relative;
 }
-
+.photoCard img{
+    object-fit: contain;
+}
 .profPicAndName{
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 1em 1em;
+    margin: 1em 0em;
 }
 .profPicAndName a{
     margin-left: 1em;
@@ -32,11 +34,11 @@
 .card p{
     color: var(--text2);
     cursor: pointer;
-    margin: 1em 0em 1em 1em;
+    margin: 1em 0em;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
 }
 .description button{
@@ -48,6 +50,11 @@
     border-style: none;
     border-radius: 10%;
     letter-spacing: 0.1em;
+}
+@media (min-width: 400px) {
+    .photoCard img {
+        object-fit: cover;
+      }
 }
 @media (min-width: 700px) {
 .card p {

@@ -24,7 +24,7 @@ function Card(props) {
           {/*<button className={`${styles["dropbtn"]}`}>read more</button>*/}
         </div>
         <div className={`${styles["photoCard"]}`}>
-          <Image src={`${basePath}/${profile.photo}`} layout="fill" objectFit='contain'/>
+          <Image src={`${basePath}/${profile.photo}`} layout="fill" />
         </div>
       </section>
   )
