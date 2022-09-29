@@ -93,7 +93,7 @@ html {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   main {
     width: 100%;
     display: grid;  
