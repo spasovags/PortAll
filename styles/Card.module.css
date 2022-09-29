@@ -1,13 +1,12 @@
 .card {
-    flex: 0 1 200px; /*  Stretching: */
-    /* flex: 0 1 150px;  No stretching: */
-    margin: 5px;
+    flex: 0 1 200px;
+    margin: 3em 0.5em 0.5em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+    border-block-start: 1px grey solid;
+}
 .photoCard {
-    /*background: wheat;*/
     width: 100%;
     height: 300px;
     position: relative;
@@ -20,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 1em 0em;
+    padding-block-start: 3em;
 }
 .profPicAndName a{
     margin-left: 1em;
@@ -54,8 +53,13 @@
 @media (min-width: 400px) {
     .photoCard img {
         object-fit: cover;
-      }
+    }
 }
+@media (min-width: 500px) {
+    .card {
+      border-block-start-style: none;
+    }
+  }
 @media (min-width: 700px) {
 .card p {
     margin: 0em;
