@@ -1,3 +1,10 @@
+PortAll is open-source.  It's made with Nextjs and JavaScript. Feel free to contribute. 
+
+This is what it looks like: https://portall.vercel.app
+
+I want it to be a place where people can find sponsors that don't necessarily have a lot of money. For example if someone wants to open a restaurant but doesn't have enough money or time, and all they have is a building, they might be able to find people that want to help them. Someone might be looking for a job, which means they have enough time. Someone else might have enough money to sponsor them, but not enough time or money for a building. So these three people can work together and make money. People with limited resources will be able to find other people with limited resources that want to work with them.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
