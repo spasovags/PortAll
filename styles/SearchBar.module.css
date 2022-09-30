@@ -1,0 +1,15 @@
+.form-search {
+    display: flex;
+}
+
+.form-search input[type=text] {
+  padding: 5px;
+  flex: 1;
+  font-size: 2rem;
+}
+
+.form-search button {
+   font-size: 2em;
+   background-color: var(--brand);
+   cursor: pointer;
+}
