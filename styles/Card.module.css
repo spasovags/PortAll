@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-block-start: 1px grey solid;
+    border-block-start: 1px var(--text2) solid;
 }
 .photoCard {
     width: 100%;
