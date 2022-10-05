@@ -1,0 +1,18 @@
+.form-searchOptions {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.select-searchOptions label{
+    color: var(--text2);
+    font-size: 1.2rem;
+    padding: 0.2em 0em;
+}
+.select-searchOptions {
+ display: flex;
+ flex-direction: column;
+}
+.select-searchOptions select{
+    font-size: 1.2rem;
+}

@@ -3,13 +3,15 @@
 }
 
 .form-search input[type=text] {
-  padding: 5px;
-  flex: 1;
-  font-size: 2rem;
+  flex: 0 1 100%;
+  font-size: 1rem;
 }
 
 .form-search button {
-   font-size: 2em;
+   font-size: 2rem;
    background-color: var(--brand);
    cursor: pointer;
+}
+.form-search button:hover {
+  background-color: var(--surface2);
 }
