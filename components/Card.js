@@ -21,7 +21,7 @@ function Card(props) {
         </div>
         <div className={`${styles["description"]}`}>
           <p>{profile.description}</p>
-          {/*<button className={`${styles["dropbtn"]}`}>read more</button>*/}
+          <button className={`${styles["dropbtn"]}`}>read more</button>
         </div>
         <div className={`${styles["photoCard"]}`}>
           <Image src={`${basePath}/${profile.photo}`} layout="fill" />

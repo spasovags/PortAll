@@ -11,35 +11,35 @@
       "profPic": "12.png",
       "photo": "2.png",      
       "username": "jill",
-      "description": "There is no need to specify the key here:return loremlorem"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste, ut natus, consectetur nobis dignissimos nostrum accusantium, est doloribus totam qui ratione sint laboriosam? Voluptatem perferendis dolor, nemo atque magnam fugiat non praesentium animi magni quia autem accusantium dignissimos dolor"
     },
     {  
       "id": 11,
       "profPic": "13.png",
       "photo": "3.png",      
       "username": "dan",
-      "description": "That elements inside the map() call need keys"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste, ut natus, consectetur nobis dignissimos nostrum accusantium, est doloribus totam qui ratione sint laboriosam? Voluptatem perferendis dolor, nemo atque magnam fugiat non praesentium animi magni quia autem accusantium dignissimos dolor"
     },
     {
       "id": 821,
       "profPic": "14.png",
       "photo": "4.png",      
       "username": "bill",
-      "description": "key here:return loremlorem"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste, ut natus, consectetur nobis dignissimos nostrum accusantium, est doloribus totam qui ratione sint laboriosam? Voluptatem perferendis dolor, nemo atque magnam fugiat non praesentium animi magni quia autem accusantium dignissimos dolor"
     },
     {
       "id": 12,
       "profPic": "15.png",
       "photo": "5.png",      
       "username": "blob",
-      "description": "We can have a link to each of these pages like so:      "
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste, ut natus, consectetur nobis dignissimos nostrum accusantium, est doloribus totam qui ratione sint laboriosam? Voluptatem perferendis dolor, nemo atque magnam fugiat non praesentium animi magni quia autem accusantium dignissimos dolor"
     },
     {
       "id": 822,
       "profPic": "16.png",
       "photo": "6.png",      
       "username": "bob",
-      "description": " Client-side transitions between routes can be enabled via the Link component exported by next/link.For an example, consider a pages directory with the following fi"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste, ut natus, consectetur nobis dignissimos nostrum accusantium, est doloribus totam qui ratione sint laboriosam? Voluptatem perferendis dolor, nemo atque magnam fugiat non praesentium animi magni quia autem accusantium dignissimos dolor"
     }
 
 ]

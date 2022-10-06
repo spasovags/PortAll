@@ -3,7 +3,6 @@
     margin: 3em 0.5em 0.5em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border-block-start: 1px var(--text2) solid;
 }
 .photoCard {
@@ -33,22 +32,33 @@
 .card p{
     color: var(--text2);
     cursor: pointer;
-    margin: 1em 0em;
+    margin: 1em 0em 0.5em;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
 .description button{
+    display: block;
+    width: 100%;
+    padding: 0.5em 0em;
     cursor: pointer;
     white-space: nowrap;
     background-color: transparent;
     color: var(--text2);
     font-weight: bold;
-    border-style: none;
-    border-radius: 10%;
+    border: 1px solid var(--text2);
+    border-radius: 12px;
     letter-spacing: 0.1em;
+
 }
 @media (min-width: 400px) {
     .photoCard img {
