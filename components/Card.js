@@ -24,7 +24,7 @@ function Card(props) {
           <Link 
             href={{
               pathname: '/posts/[data]',
-              query: { data: post },
+              query: { data: post.id },
             }}          
             className={`${styles["dropbtn"]}`}>
             read more
