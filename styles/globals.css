@@ -73,9 +73,9 @@ html {
   --surface-shadow: var(--surface-shadow-light);
   --shadow-strength: var(--shadow-strength-light);
 }
-main section:first-child {
+/*main section:first-child {
   border-block-start-style: none;
-}
+}*/
 
 
 @media (prefers-color-scheme: dark) {
@@ -93,7 +93,7 @@ main section:first-child {
     --shadow-strength: var(--shadow-strength-dark);
   }
 }
-
+/*
 @media (min-width: 500px) {
   main {
     width: 100%;
@@ -109,7 +109,7 @@ main section:first-child {
     gap: 3em;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   }
-}
+}*/
 [color-scheme="light"] {
   color-scheme: light;
 

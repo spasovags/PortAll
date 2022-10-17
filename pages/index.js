@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Card from '../components/Card'
+import Cards from '../components/Cards'
 import useSWR from 'swr'
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -20,9 +20,8 @@ export default function Home() {
         <meta name="description" content="Find job, friends and sponsors" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
-      {profiles.map((profile) =>
-       <Card key={profile.id} value={profile} />)}
+      
+      <Cards profiles={profiles}/>
     </>
   )
 }
