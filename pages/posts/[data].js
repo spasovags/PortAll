@@ -30,10 +30,11 @@ const Post = () => {
     <Link href='#'>{post[0].username}</Link>
     </div>
     <div className={`${styles["description"]}`}>
-      <Link 
-        href="#"          
-        className={`${styles["dropbtn"]}`}>
-          send a message &#9993;
+      <Link href="#" >
+       <a
+        className={`${styles["message-btn"]}`}>
+          send message &#9993;
+       </a>
       </Link>
       <p>{post[0].description}</p>
     </div>

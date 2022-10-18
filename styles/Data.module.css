@@ -41,14 +41,14 @@
     margin-bottom: 0.5em;
     margin-top: 1em;
 }
-.description a{
+.message-btn {
     display: block;
     width: 100%;
     padding: 0.5em 0em;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
-    background-color: transparent;
+    background-color: var(--surface3);
     color: var(--text2);
     font-weight: bold;
     border: 1px solid var(--text2);
@@ -67,7 +67,12 @@
     }
   }
 @media (min-width: 700px) {
-.card p {
+    .message-btn{
+     width: 30%;
+     margin-left: 0em;  
+     margin-right: auto;  
+  }
+  .card p {
     margin: 0em;
   }
   .card{

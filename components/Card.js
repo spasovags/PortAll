@@ -20,14 +20,22 @@ function Card(props) {
           <Link href='#'>{post.username}</Link>
         </div>
         <div className={`${styles["description"]}`}>
+          <Link href="#" >
+           <a
+            className={`${styles["message-btn"]}`}>
+             send message &#9993;
+           </a>
+          </Link>          
           <p>{post.description}</p>
           <Link 
             href={{
               pathname: '/posts/[data]',
               query: { data: post.id },
-            }}          
-            className={`${styles["dropbtn"]}`}>
-            read more
+            }}>
+            <a
+              className={`${styles["read-more-btn"]}`}>
+              read more
+            </a>
           </Link>
         </div>
         <div className={`${styles["photoCard"]}`}>
