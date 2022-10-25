@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Card.module.css'
+import { useInView } from 'react-intersection-observer';
 
-function Card(props) {
+const Card = (props) => {
   const post = props.value;
   const basePath = '/images/PhotosProfiles'
+  const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true});
 
    return (
-      <section className={`${styles["card"]}`}>
+      <section className={`${styles["card"]} 
+      ${IsCardsVisible ? `${styles["animCard"]}` : ''}`}
+      ref={cardRef} >
         <div className={`${styles["profPicAndName"]}`}>
           <Link href="#">
             <Image src={`${basePath}/${post.profPic}`}
@@ -42,7 +46,7 @@ function Card(props) {
           <Image src={`${basePath}/${post.photo}`} layout="fill" />
         </div>
       </section>
-  )
+   );
 }
 
 export default Card

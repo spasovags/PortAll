@@ -1,7 +1,28 @@
 .main-cards section:first-child {
     border-block-start-style: none;
-  }
-  @media (min-width: 500px) {
+}
+.main-cards section {
+  position: relative;
+}
+/*
+.main-cards section:nth-child(2) {
+  animation-delay: 2s;
+}
+.main-cards section:nth-child(3) {
+  animation-delay: 4s;
+}
+.main-cards section:nth-child(4) {
+  animation-delay: 6s;
+}
+.main-cards section:nth-child(5) {
+  animation-delay: 8s;
+}
+.main-cards section:nth-child(6) {
+  animation-delay: 10s;
+}
+*/
+
+@media (min-width: 500px) {
     .main-cards {
       width: 100%;
       display: grid;  
