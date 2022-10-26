@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Card.module.css'
@@ -10,8 +10,7 @@ const Card = (props) => {
   const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true});
 
    return (
-      <section className={`${styles["card"]} 
-      ${IsCardsVisible ? `${styles["animCard"]}` : ''}`}
+      <section className={`${styles["card"]} ${IsCardsVisible ? styles.animCard : ""}`}
       ref={cardRef} >
         <div className={`${styles["profPicAndName"]}`}>
           <Link href="#">
