@@ -8,6 +8,7 @@ const Card = (props) => {
   const post = props.value;
   const basePath = '/images/PhotosProfiles'
   const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true});
+  const { ref: shakeRef, inView: IsShakenVisible } = useInView({triggerOnce: true});
 
    return (
       <section className={`${styles["card"]} ${IsCardsVisible ? styles.animCard : ""}`}
@@ -26,7 +27,11 @@ const Card = (props) => {
           <Link href="#" >
            <a
             className={`${styles["message-btn"]}`}>
-             send message &#9993;
+             send message <span 
+              className={`${IsShakenVisible ? styles.shakeitoff : ""}`}
+               ref={shakeRef}>           
+               &#9993;
+               </span>
            </a>
           </Link>          
           <p>{post.description}</p>
