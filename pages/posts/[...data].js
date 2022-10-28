@@ -14,9 +14,13 @@ const Post = () => {
 
   const { data } = useSWR('/api/staticdata', fetcher)
   const posts = JSON.parse(data)
-
-  const post = posts.filter((post)=> post.id==router.query.data)
-
+  let post = null
+  try {
+    post = posts.filter((post)=> post.id==router.query.data)
+  } catch (err) {
+    console.log('Error: ', err.message);
+  }
+  
   return (
     <div className={`${styles["card"]}`}>
     <div className={`${styles["profPicAndName"]}`}>

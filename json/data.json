@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "alt": "",
       "profPic": "11.png",
       "photo": "1.png",
       "username": "joe",
@@ -8,6 +9,7 @@
     },
     {
       "id": 8221,
+      "alt": "",
       "profPic": "12.png",
       "photo": "2.png",      
       "username": "jill",
@@ -15,6 +17,7 @@
     },
     {  
       "id": 11,
+      "alt": "",
       "profPic": "13.png",
       "photo": "3.png",      
       "username": "dan",
@@ -22,6 +25,7 @@
     },
     {
       "id": 821,
+      "alt": "",
       "profPic": "14.png",
       "photo": "4.png",      
       "username": "bill",
@@ -29,6 +33,7 @@
     },
     {
       "id": 12,
+      "alt": "",
       "profPic": "15.png",
       "photo": "5.png",      
       "username": "blob",
@@ -36,6 +41,7 @@
     },
     {
       "id": 822,
+      "alt": "",
       "profPic": "16.png",
       "photo": "6.png",      
       "username": "bob",
