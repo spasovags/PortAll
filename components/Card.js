@@ -37,7 +37,7 @@ const Card = (props) => {
           <p>{post.description}</p>
           <Link 
             href={{
-              pathname: '/posts/[data]',
+              pathname: '/posts/[...data]',
               query: { data: post.id },
             }}>
             <a
