@@ -14,9 +14,11 @@ const Post = () => {
 
   const { data } = useSWR('/api/staticdata', fetcher)
   const posts = JSON.parse(data)
+  console.log(posts)
   let post = null
   try {
     post = posts.filter((post)=> post.id==router.query.data)
+    console.log('post : ', post)
   } catch (err) {
     console.log('Error: ', err.message);
   }
@@ -25,13 +27,15 @@ const Post = () => {
     <div className={`${styles["card"]}`}>
     <div className={`${styles["profPicAndName"]}`}>
     <Link href="#">
+      <a>
       <Image src={`${basePath}/${post[0].profPic}`}
       width="70" 
       height="70"
       objectFit='cover'
       />
+      </a>
     </Link>
-    <Link href='#'>{post[0].username}</Link>
+    <Link href='#'><a>{post[0].username}</a></Link>
     </div>
     <div className={`${styles["description"]}`}>
       <Link href="#" >

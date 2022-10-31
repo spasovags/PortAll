@@ -15,13 +15,15 @@ const Card = (props) => {
       ref={cardRef} >
         <div className={`${styles["profPicAndName"]}`}>
           <Link href="#">
+            <a>
             <Image src={`${basePath}/${post.profPic}`}
             width="70" 
             height="70"
             objectFit='cover'
             />
+            </a>
           </Link>
-          <Link href='#'>{post.username}</Link>
+          <Link href='#'><a>{post.username}</a></Link>
         </div>
         <div className={`${styles["description"]}`}>
           <Link href="#" >

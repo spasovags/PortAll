@@ -22,7 +22,9 @@ const Navbar = () => {
       <div className={`${styles["navbar-container"]}`}>
         <div className={`${styles["logo-close-container"]}`}>
           <Link href="#">
+            <a>
             <Image src={logo} height={45} width={60} alt="Link home" />
+            </a>
           </Link>
           <div href="#" className={hambClassname} 
           onClick={() => {setIsModal(!isModal); setIsActive(!isActive)}}>
@@ -35,33 +37,33 @@ const Navbar = () => {
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>account</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <Link href="#">options</Link>
-              <Link href="#">data</Link>
-              <Link href="#">blah blah</Link>
+              <Link href="#"><a>options</a></Link>
+              <Link href="#"><a>data</a></Link>
+              <Link href="#"><a>blah blah</a></Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>settings</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <Link href="#">payment</Link>
-              <Link href="#">history</Link>
-              <Link href="#">blah blah</Link>
+              <Link href="#"><a>payment</a></Link>
+              <Link href="#"><a>history</a></Link>
+              <Link href="#"><a>blah blah</a></Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>messages</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <Link href="#">settings</Link>
-              <Link href="#">blah blah</Link>
-              <Link href="#">setting</Link>
+              <Link href="#"><a>settings</a></Link>
+              <Link href="#"><a>blah blah</a></Link>
+              <Link href="#"><a>setting</a></Link>
             </div>
           </div>
           <div className={`${styles["dropdown"]}`}>
             <button className={`${styles["dropbtn"]}`}>for you</button>
             <div className={`${styles["dropdown-content"]}`}>
-              <Link href="#">new stuff</Link>
-              <Link href="#">matches</Link>
-              <Link href="#">blah blah</Link>
+              <Link href="#"><a>new stuff</a></Link>
+              <Link href="#"><a>matches</a></Link>
+              <Link href="#"><a>blah blah</a></Link>
             </div>
           </div>
         </div>
