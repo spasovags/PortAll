@@ -20,6 +20,7 @@ const Card = (props) => {
             width="70" 
             height="70"
             objectFit='cover'
+            alt={post.alt}
             />
             </a>
           </Link>
@@ -49,7 +50,7 @@ const Card = (props) => {
           </Link>
         </div>
         <div className={`${styles["photoCard"]}`}>
-          <Image src={`${basePath}/${post.photo}`} layout="fill" />
+          <Image src={`${basePath}/${post.photo}`} layout="fill" alt={post.alt}/>
         </div>
       </section>
    );
