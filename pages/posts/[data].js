@@ -12,7 +12,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 const Post = () => {
   const router = useRouter()
 
-  const { data } = useSWR('/api/staticdata', fetcher)
+  const { data, error } = useSWR('/api/staticdata', fetcher)
   const posts = JSON.parse(data)
   console.log(posts)
   let post = null
@@ -22,7 +22,9 @@ const Post = () => {
   } catch (err) {
     console.log('Error: ', err.message);
   }
-  
+  if (error) return (<p>An error has occurred.</p>)
+  if (!post) return (<p>Loading...</p>)
+ 
   return (
     <div className={`${styles["card"]}`}>
     <div className={`${styles["profPicAndName"]}`}>
