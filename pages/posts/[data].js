@@ -25,9 +25,7 @@ const Post = () => {
   } catch (err) {
     console.log('Error: ', err.message);
   }
-  if (error) return (<p>An error has occurred.</p>)
-  if (!post) return (<p>Loading...</p>)
- 
+  
   return (
     <div className={`${styles["card"]}`}>
     <div className={`${styles["profPicAndName"]}`}>
