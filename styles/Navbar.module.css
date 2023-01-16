@@ -1,5 +1,5 @@
 .nav-background {
-    /*background-color: #667886;*/
+    font-family: 'Righteous', cursive;    
     background-image: linear-gradient(to right, white , var(--brand));
     width: 100%;
     position: sticky;
@@ -78,6 +78,8 @@
     display: none;
   }
   .dropbtn {
+    font-family: 'Righteous', cursive;    
+    background-image: linear-gradient(to right, white , var(--brand));
     width: 100%;
     background-image: linear-gradient(to right, white , var(--brand));
     color: var(--text1);

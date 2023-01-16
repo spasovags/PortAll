@@ -1,4 +1,7 @@
 .card {
+  font-family: 'Righteous', cursive;    
+  background-image: linear-gradient(to right, white , var(--brand));
+  border-radius: 20px;
     top: 200px;
     flex: 0 1 200px;
     margin: 3em 0.5em 0.5em;
@@ -24,14 +27,14 @@
 .profPicAndName a{
     margin-left: 1em;
     font-weight: bold;
-    color: var(--text2);
+    color:  hsl(89 15% 10%);
  } 
 .profPicAndName img{
     cursor: pointer;
     border-radius: 50%;
 }
 .card p{
-    color: var(--text2);
+    color: hsl(89 15% 10%);
     cursor: pointer;
     margin: 0.5em 0em 0.5em;
     overflow: hidden;
@@ -41,11 +44,12 @@
     -webkit-box-orient: vertical;
 }
 .description{
+    color: hsl(89 15% 10%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0.5em;
+    margin: 0.5em;
 }
 .read-more-btn{
     display: block;
@@ -55,9 +59,9 @@
     cursor: pointer;
     white-space: nowrap;
     background-color: transparent;
-    color: var(--text2);
+    color: hsl(89 15% 10%);
     font-weight: bold;
-    border: 1px solid var(--text2);
+    border: 1px solid hsl(89 15% 10%);
     border-radius: 12px;
     letter-spacing: 0.1em;
 }
@@ -70,7 +74,6 @@
     white-space: nowrap;
     background-color: var(--surface3);
     color: var(--text2);
-    font-weight: bold;
     border: 1px solid var(--text2);
     border-radius: 12px;
     letter-spacing: 0.1em;
