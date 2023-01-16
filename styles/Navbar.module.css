@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .nav-background {
     font-family: 'Righteous', cursive;    
     background-image: linear-gradient(to right, white , var(--brand));
